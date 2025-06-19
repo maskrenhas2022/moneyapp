@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:moneyapp/app.dart';
+import 'package:moneyapp/common/constants/app_colors.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -12,7 +14,7 @@ class SplashPage extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Color(0xFF63B5AF), Color(0xFF438883)],
+            colors: [AppColors.greeligtOne, AppColors.greeligtTwo],
           ),
         ),
         child: Text(
